@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "recipient": "sandi",
+  "network_type": "mainnet",
+  "address_type": "receiving_wallet",
+  "wallets": [
+    {
+      "token": "BTC",
+      "network": "Bitcoin",
+      "address": "bc1qrtt3uwgemheuwthwdydek5wfrp3ffa36yf3w8x",
+      "standard": "native"
+    },
+    {
+      "token": "ETH",
+      "network": "Ethereum",
+      "address": "0x61c44F6631DbDa212b1D63568526dB94af64d6eF",
+      "standard": "native",
+      "chain_id": 1
+    },
+    {
+      "token": "USDT",
+      "network": "Ethereum",
+      "address": "0x61c44F6631DbDa212b1D63568526dB94af64d6eF",
+      "standard": "ERC-20",
+      "chain_id": 1,
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+    },
+    {
+      "token": "USDC",
+      "network": "Ethereum",
+      "address": "0x61c44F6631DbDa212b1D63568526dB94af64d6eF",
+      "standard": "ERC-20",
+      "chain_id": 1,
+      "token_contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+    },
+    {
+      "token": "SOL",
+      "network": "Solana",
+      "address": "3K9U4Kn1uCE5aaBCjPX5GU6LhKHYvxPgSfKyLF4D68mZ",
+      "standard": "native",
+      "cluster": "mainnet-beta"
+    },
+    {
+      "token": "USDT",
+      "network": "Solana",
+      "address": "3K9U4Kn1uCE5aaBCjPX5GU6LhKHYvxPgSfKyLF4D68mZ",
+      "standard": "SPL",
+      "cluster": "mainnet-beta",
+      "token_mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+    },
+    {
+      "token": "USDC",
+      "network": "Solana",
+      "address": "3K9U4Kn1uCE5aaBCjPX5GU6LhKHYvxPgSfKyLF4D68mZ",
+      "standard": "SPL",
+      "cluster": "mainnet-beta",
+      "token_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+    },
+    {
+      "token": "TRX",
+      "network": "TRON",
+      "address": "TXE8ByPwBGhbmjgztZChcqd7MS8K8XotMX",
+      "standard": "native"
+    },
+    {
+      "token": "USDT",
+      "network": "TRON",
+      "address": "TXE8ByPwBGhbmjgztZChcqd7MS8K8XotMX",
+      "standard": "TRC-20",
+      "token_contract": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t"
+    },
+    {
+      "token": "BNB",
+      "network": "BNB Smart Chain",
+      "address": "0x61c44F6631DbDa212b1D63568526dB94af64d6eF",
+      "standard": "native",
+      "chain_id": 56
+    },
+    {
+      "token": "USDT",
+      "network": "BNB Smart Chain",
+      "address": "0x61c44F6631DbDa212b1D63568526dB94af64d6eF",
+      "standard": "BEP-20",
+      "chain_id": 56,
+      "variant": "Binance-Peg",
+      "token_name": "Binance-Peg BSC-USD",
+      "token_contract": "0x55d398326f99059fF775485246999027B3197955"
+    },
+    {
+      "token": "USDC",
+      "network": "BNB Smart Chain",
+      "address": "0x61c44F6631DbDa212b1D63568526dB94af64d6eF",
+      "standard": "BEP-20",
+      "chain_id": 56,
+      "variant": "Binance-Peg",
+      "token_name": "Binance-Peg USD Coin",
+      "token_contract": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+    }
+  ]
+}
